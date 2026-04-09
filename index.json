@@ -1,496 +1,100 @@
 {
-  "name": "IR & DFIR",
+  "name": "Windows Forensics",
   "type": "folder",
   "children": [
     {
-      "name": "Incedent Respons",
+      "name": "Saldırı Zinciri",
       "type": "folder",
       "children": [
         {
-          "name": "1Ana Dosya",
-          "type": "folder",
-          "children": [
-            {
-              "name": "Right-Branching",
-              "type": "file",
-              "slug": "right-branching",
-              "path": "Incedent Respons/1Ana Dosya/Right-Branching.md"
-            }
-          ]
-        },
-        {
-          "name": "AD Attacks & Hunting",
-          "type": "folder",
-          "children": [
-            {
-              "name": "attacklar",
-              "type": "folder",
-              "children": [
-                {
-                  "name": "AS-REP Attack",
-                  "type": "file",
-                  "slug": "as-rep-attack",
-                  "path": "Incedent Respons/AD Attacks & Hunting/attacklar/AS-REP Attack.md"
-                },
-                {
-                  "name": "Blood Sharp Attack",
-                  "type": "file",
-                  "slug": "blood-sharp-attack",
-                  "path": "Incedent Respons/AD Attacks & Hunting/attacklar/Blood Sharp Attack.md"
-                },
-                {
-                  "name": "Golden Attack",
-                  "type": "file",
-                  "slug": "golden-attack",
-                  "path": "Incedent Respons/AD Attacks & Hunting/attacklar/Golden Attack.md"
-                },
-                {
-                  "name": "NTDS Attack",
-                  "type": "file",
-                  "slug": "ntds-attack",
-                  "path": "Incedent Respons/AD Attacks & Hunting/attacklar/NTDS Attack.md"
-                },
-                {
-                  "name": "NTML Attack",
-                  "type": "file",
-                  "slug": "ntml-attack",
-                  "path": "Incedent Respons/AD Attacks & Hunting/attacklar/NTML Attack.md"
-                },
-                {
-                  "name": "Timing Attack",
-                  "type": "file",
-                  "slug": "timing-attack",
-                  "path": "Incedent Respons/AD Attacks & Hunting/attacklar/Timing Attack.md"
-                }
-              ]
-            },
-            {
-              "name": "AD  Kerberoasting",
-              "type": "file",
-              "slug": "ad-kerberoasting",
-              "path": "Incedent Respons/AD Attacks & Hunting/AD  Kerberoasting.md"
-            },
-            {
-              "name": "AD AS-REP Roasting",
-              "type": "file",
-              "slug": "ad-as-rep-roasting",
-              "path": "Incedent Respons/AD Attacks & Hunting/AD AS-REP Roasting.md"
-            },
-            {
-              "name": "AD BloodHound SharpHound",
-              "type": "file",
-              "slug": "ad-bloodhound-sharphound",
-              "path": "Incedent Respons/AD Attacks & Hunting/AD BloodHound SharpHound.md"
-            },
-            {
-              "name": "AD Golden Ticket",
-              "type": "file",
-              "slug": "ad-golden-ticket",
-              "path": "Incedent Respons/AD Attacks & Hunting/AD Golden Ticket.md"
-            },
-            {
-              "name": "AD NTDS Dumping",
-              "type": "file",
-              "slug": "ad-ntds-dumping",
-              "path": "Incedent Respons/AD Attacks & Hunting/AD NTDS Dumping.md"
-            },
-            {
-              "name": "AD NTLM Relay",
-              "type": "file",
-              "slug": "ad-ntlm-relay",
-              "path": "Incedent Respons/AD Attacks & Hunting/AD NTLM Relay.md"
-            },
-            {
-              "name": "DCShadow",
-              "type": "file",
-              "slug": "dcshadow",
-              "path": "Incedent Respons/AD Attacks & Hunting/DCShadow.md"
-            },
-            {
-              "name": "DCSync",
-              "type": "file",
-              "slug": "dcsync",
-              "path": "Incedent Respons/AD Attacks & Hunting/DCSync.md"
-            },
-            {
-              "name": "Genel AD Bilgi",
-              "type": "file",
-              "slug": "genel-ad-bilgi",
-              "path": "Incedent Respons/AD Attacks & Hunting/Genel AD Bilgi.md"
-            },
-            {
-              "name": "Lateral movement",
-              "type": "file",
-              "slug": "lateral-movement",
-              "path": "Incedent Respons/AD Attacks & Hunting/Lateral movement.md"
-            }
-          ]
-        },
-        {
-          "name": "Detection & Triage",
-          "type": "folder",
-          "children": [
-            {
-              "name": "Linux Host Investigation",
-              "type": "folder",
-              "children": [
-                {
-                  "name": "Crontab (Scheduled Tasks)",
-                  "type": "file",
-                  "slug": "crontab-scheduled-tasks",
-                  "path": "Incedent Respons/Detection & Triage/Linux Host Investigation/Crontab (Scheduled Tasks).md"
-                },
-                {
-                  "name": "GTFOBins",
-                  "type": "file",
-                  "slug": "gtfobins",
-                  "path": "Incedent Respons/Detection & Triage/Linux Host Investigation/GTFOBins.md"
-                },
-                {
-                  "name": "Linux Event Logs",
-                  "type": "file",
-                  "slug": "linux-event-logs",
-                  "path": "Incedent Respons/Detection & Triage/Linux Host Investigation/Linux Event Logs.md"
-                },
-                {
-                  "name": "mounts(usb) + webshell",
-                  "type": "file",
-                  "slug": "mounts-usb-webshell",
-                  "path": "Incedent Respons/Detection & Triage/Linux Host Investigation/mounts(usb) + webshell.md"
-                },
-                {
-                  "name": "Network",
-                  "type": "file",
-                  "slug": "network",
-                  "path": "Incedent Respons/Detection & Triage/Linux Host Investigation/Network.md"
-                },
-                {
-                  "name": "Process",
-                  "type": "file",
-                  "slug": "process",
-                  "path": "Incedent Respons/Detection & Triage/Linux Host Investigation/Process.md"
-                },
-                {
-                  "name": "Services Linux",
-                  "type": "file",
-                  "slug": "services-linux",
-                  "path": "Incedent Respons/Detection & Triage/Linux Host Investigation/Services Linux.md"
-                },
-                {
-                  "name": "SSH Authorized Keys",
-                  "type": "file",
-                  "slug": "ssh-authorized-keys",
-                  "path": "Incedent Respons/Detection & Triage/Linux Host Investigation/SSH Authorized Keys.md"
-                },
-                {
-                  "name": "User & Group Analysis",
-                  "type": "file",
-                  "slug": "user-group-analysis",
-                  "path": "Incedent Respons/Detection & Triage/Linux Host Investigation/User & Group Analysis.md"
-                }
-              ]
-            },
-            {
-              "name": "Windows Event Log Analysis Dosyaları",
-              "type": "folder",
-              "children": [
-                {
-                  "name": "4688",
-                  "type": "file",
-                  "slug": "4688",
-                  "path": "Incedent Respons/Detection & Triage/Windows Event Log Analysis Dosyaları/4688.md"
-                },
-                {
-                  "name": "Account Logon",
-                  "type": "file",
-                  "slug": "account-logon",
-                  "path": "Incedent Respons/Detection & Triage/Windows Event Log Analysis Dosyaları/Account Logon.md"
-                },
-                {
-                  "name": "BITS İstemci",
-                  "type": "file",
-                  "slug": "bits-istemci",
-                  "path": "Incedent Respons/Detection & Triage/Windows Event Log Analysis Dosyaları/BITS İstemci.md"
-                },
-                {
-                  "name": "Defender",
-                  "type": "file",
-                  "slug": "defender",
-                  "path": "Incedent Respons/Detection & Triage/Windows Event Log Analysis Dosyaları/Defender.md"
-                },
-                {
-                  "name": "DNS",
-                  "type": "file",
-                  "slug": "dns",
-                  "path": "Incedent Respons/Detection & Triage/Windows Event Log Analysis Dosyaları/DNS.md"
-                },
-                {
-                  "name": "Firewall",
-                  "type": "file",
-                  "slug": "firewall",
-                  "path": "Incedent Respons/Detection & Triage/Windows Event Log Analysis Dosyaları/Firewall.md"
-                },
-                {
-                  "name": "MSI Event",
-                  "type": "file",
-                  "slug": "msi-event",
-                  "path": "Incedent Respons/Detection & Triage/Windows Event Log Analysis Dosyaları/MSI Event.md"
-                },
-                {
-                  "name": "Network Connections",
-                  "type": "file",
-                  "slug": "network-connections",
-                  "path": "Incedent Respons/Detection & Triage/Windows Event Log Analysis Dosyaları/Network Connections.md"
-                },
-                {
-                  "name": "Powershell",
-                  "type": "file",
-                  "slug": "powershell",
-                  "path": "Incedent Respons/Detection & Triage/Windows Event Log Analysis Dosyaları/Powershell.md"
-                },
-                {
-                  "name": "RDP",
-                  "type": "file",
-                  "slug": "rdp",
-                  "path": "Incedent Respons/Detection & Triage/Windows Event Log Analysis Dosyaları/RDP.md"
-                },
-                {
-                  "name": "Scheduled Tasks",
-                  "type": "file",
-                  "slug": "scheduled-tasks",
-                  "path": "Incedent Respons/Detection & Triage/Windows Event Log Analysis Dosyaları/Scheduled Tasks.md"
-                },
-                {
-                  "name": "Services",
-                  "type": "file",
-                  "slug": "services",
-                  "path": "Incedent Respons/Detection & Triage/Windows Event Log Analysis Dosyaları/Services.md"
-                }
-              ]
-            },
-            {
-              "name": "Windows Host Investigation",
-              "type": "folder",
-              "children": [
-                {
-                  "name": "Autoruns",
-                  "type": "file",
-                  "slug": "autoruns",
-                  "path": "Incedent Respons/Detection & Triage/Windows Host Investigation/Autoruns.md"
-                },
-                {
-                  "name": "Explorer",
-                  "type": "file",
-                  "slug": "explorer",
-                  "path": "Incedent Respons/Detection & Triage/Windows Host Investigation/Explorer.md"
-                },
-                {
-                  "name": "Logon",
-                  "type": "file",
-                  "slug": "logon",
-                  "path": "Incedent Respons/Detection & Triage/Windows Host Investigation/Logon.md"
-                },
-                {
-                  "name": "Process Hacker",
-                  "type": "file",
-                  "slug": "process-hacker",
-                  "path": "Incedent Respons/Detection & Triage/Windows Host Investigation/Process Hacker.md"
-                },
-                {
-                  "name": "Registry Persistence",
-                  "type": "file",
-                  "slug": "registry-persistence",
-                  "path": "Incedent Respons/Detection & Triage/Windows Host Investigation/Registry Persistence.md"
-                },
-                {
-                  "name": "Services(Hizmetler)",
-                  "type": "file",
-                  "slug": "services-hizmetler",
-                  "path": "Incedent Respons/Detection & Triage/Windows Host Investigation/Services(Hizmetler).md"
-                }
-              ]
-            },
-            {
-              "name": "Sysmon Event ID",
-              "type": "file",
-              "slug": "sysmon-event-id",
-              "path": "Incedent Respons/Detection & Triage/Sysmon Event ID.md"
-            }
-          ]
-        },
-        {
-          "name": "Forensic",
-          "type": "folder",
-          "children": [
-            {
-              "name": "Acquisition",
-              "type": "file",
-              "slug": "acquisition",
-              "path": "Incedent Respons/Forensic/Acquisition.md"
-            },
-            {
-              "name": "Browser",
-              "type": "file",
-              "slug": "browser",
-              "path": "Incedent Respons/Forensic/Browser.md"
-            },
-            {
-              "name": "Disk",
-              "type": "file",
-              "slug": "disk",
-              "path": "Incedent Respons/Forensic/Disk.md"
-            },
-            {
-              "name": "Memory",
-              "type": "file",
-              "slug": "memory",
-              "path": "Incedent Respons/Forensic/Memory.md"
-            },
-            {
-              "name": "Registry",
-              "type": "file",
-              "slug": "registry",
-              "path": "Incedent Respons/Forensic/Registry.md"
-            },
-            {
-              "name": "USB",
-              "type": "file",
-              "slug": "usb",
-              "path": "Incedent Respons/Forensic/USB.md"
-            }
-          ]
-        },
-        {
-          "name": "IR süreçleri",
-          "type": "folder",
-          "children": [
-            {
-              "name": "1. Hazırlık Aşaması",
-              "type": "file",
-              "slug": "1-hazirlik-asamasi",
-              "path": "Incedent Respons/IR süreçleri/1. Hazırlık Aşaması.md"
-            },
-            {
-              "name": "Visibility",
-              "type": "file",
-              "slug": "visibility",
-              "path": "Incedent Respons/IR süreçleri/Visibility.md"
-            }
-          ]
-        },
-        {
-          "name": "Web Sunucu Analizi",
-          "type": "folder",
-          "children": [
-            {
-              "name": "Uygulama sunucuları",
-              "type": "folder",
-              "children": [
-                {
-                  "name": "Web Shell",
-                  "type": "folder",
-                  "children": [
-                    {
-                      "name": "Encrypted Code",
-                      "type": "file",
-                      "slug": "encrypted-code",
-                      "path": "Incedent Respons/Web Sunucu Analizi/Uygulama sunucuları/Web Shell/Encrypted Code.md"
-                    },
-                    {
-                      "name": "Remote Summoning",
-                      "type": "file",
-                      "slug": "remote-summoning",
-                      "path": "Incedent Respons/Web Sunucu Analizi/Uygulama sunucuları/Web Shell/Remote Summoning.md"
-                    },
-                    {
-                      "name": "Steganography",
-                      "type": "file",
-                      "slug": "steganography",
-                      "path": "Incedent Respons/Web Sunucu Analizi/Uygulama sunucuları/Web Shell/Steganography.md"
-                    },
-                    {
-                      "name": "Web Shell",
-                      "type": "file",
-                      "slug": "web-shell",
-                      "path": "Incedent Respons/Web Sunucu Analizi/Uygulama sunucuları/Web Shell/Web Shell.md"
-                    }
-                  ]
-                },
-                {
-                  "name": "Cross-Site Request Forgery (CSRF)",
-                  "type": "file",
-                  "slug": "cross-site-request-forgery-csrf",
-                  "path": "Incedent Respons/Web Sunucu Analizi/Uygulama sunucuları/Cross-Site Request Forgery (CSRF).md"
-                },
-                {
-                  "name": "Cross-Site Scripting (XSS)",
-                  "type": "file",
-                  "slug": "cross-site-scripting-xss",
-                  "path": "Incedent Respons/Web Sunucu Analizi/Uygulama sunucuları/Cross-Site Scripting (XSS).md"
-                },
-                {
-                  "name": "Injection",
-                  "type": "file",
-                  "slug": "injection",
-                  "path": "Incedent Respons/Web Sunucu Analizi/Uygulama sunucuları/Injection.md"
-                },
-                {
-                  "name": "Tomcat",
-                  "type": "file",
-                  "slug": "tomcat",
-                  "path": "Incedent Respons/Web Sunucu Analizi/Uygulama sunucuları/Tomcat.md"
-                }
-              ]
-            },
-            {
-              "name": "Apache Web Sunucusu",
-              "type": "file",
-              "slug": "apache-web-sunucusu",
-              "path": "Incedent Respons/Web Sunucu Analizi/Apache Web Sunucusu.md"
-            },
-            {
-              "name": "IIS Web Sunucusu",
-              "type": "file",
-              "slug": "iis-web-sunucusu",
-              "path": "Incedent Respons/Web Sunucu Analizi/IIS Web Sunucusu.md"
-            },
-            {
-              "name": "Nginx Sunucusu",
-              "type": "file",
-              "slug": "nginx-sunucusu",
-              "path": "Incedent Respons/Web Sunucu Analizi/Nginx Sunucusu.md"
-            }
-          ]
-        },
-        {
-          "name": "Malware Notları",
+          "name": "Initial Access",
           "type": "file",
-          "slug": "malware-notlari",
-          "path": "Incedent Respons/Malware Notları.md"
+          "slug": "initial-access",
+          "path": "Saldırı Zinciri/Initial Access.md"
         }
       ]
     },
     {
-      "name": "Threat hunting",
+      "name": "Artifacts",
       "type": "folder",
       "children": [
         {
-          "name": "Chainsaw",
+          "name": "Prefetch",
           "type": "file",
-          "slug": "chainsaw",
-          "path": "Threat hunting/Chainsaw.md"
-        },
+          "slug": "prefetch",
+          "path": "Artifacts/Prefetch.md"
+        }
+      ]
+    },
+    {
+      "name": "Özel Konular",
+      "type": "folder",
+      "children": [
         {
-          "name": "DeepBlue",
+          "name": "Memory",
           "type": "file",
-          "slug": "deepblue",
-          "path": "Threat hunting/DeepBlue.md"
-        },
+          "slug": "memory",
+          "path": "Özel Konular/Memory.md"
+        }
+      ]
+    },
+    {
+      "name": "Referans",
+      "type": "folder",
+      "children": [
         {
-          "name": "Hayabusa",
-          "type": "file",
-          "slug": "hayabusa",
-          "path": "Threat hunting/Hayabusa.md"
+          "name": "LOLBİN",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Execution",
+              "type": "file",
+              "slug": "execution",
+              "path": "Referans/LOLBİN/Execution.md"
+            },
+            {
+              "name": "Download",
+              "type": "file",
+              "slug": "download",
+              "path": "Referans/LOLBİN/Download.md"
+            },
+            {
+              "name": "Persistence",
+              "type": "file",
+              "slug": "persistence",
+              "path": "Referans/LOLBİN/Persistence.md"
+            },
+            {
+              "name": "UAC Bypass",
+              "type": "file",
+              "slug": "uac-bypass",
+              "path": "Referans/LOLBİN/UAC Bypass.md"
+            },
+            {
+              "name": "Defense Evasion",
+              "type": "file",
+              "slug": "defense-evasion",
+              "path": "Referans/LOLBİN/Defense Evasion.md"
+            },
+            {
+              "name": "Credential Access",
+              "type": "file",
+              "slug": "credential-access",
+              "path": "Referans/LOLBİN/Credential Access.md"
+            },
+            {
+              "name": "Network-Discovery",
+              "type": "file",
+              "slug": "network-discovery",
+              "path": "Referans/LOLBİN/Network-Discovery.md"
+            },
+            {
+              "name": "Hızlı Referans",
+              "type": "file",
+              "slug": "hizli-referans",
+              "path": "Referans/LOLBİN/Hızlı Referans.MD"
+            }
+          ]
         }
       ]
     }
