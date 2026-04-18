@@ -35,6 +35,12 @@
           "type": "folder",
           "children": [
             {
+              "name": "FILE SYSTEM",
+              "type": "file",
+              "slug": "file-system",
+              "path": "Artifacts/Execution/FILE SYSTEM.md"
+            },
+            {
               "name": "REGISTRY",
               "type": "file",
               "slug": "registry",
