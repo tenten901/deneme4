@@ -11,6 +11,12 @@
           "type": "file",
           "slug": "initial-access",
           "path": "Saldırı Zinciri/Initial Access.md"
+        },
+        {
+          "name": "Execution",
+          "type": "file",
+          "slug": "execution",
+          "path": "Saldırı Zinciri/Execution.md"
         }
       ]
     },
@@ -49,7 +55,7 @@
             {
               "name": "Execution",
               "type": "file",
-              "slug": "execution",
+              "slug": "lolbin-execution",
               "path": "Referans/LOLBİN/Execution.md"
             },
             {
