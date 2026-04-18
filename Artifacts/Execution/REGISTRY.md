@@ -3,7 +3,7 @@
 
 ---
 
-## 1. REGISTRY ARTIFACT'leri
+## REGISTRY ARTIFACT'leri
 
 ```
 1. Shimcache (AppCompatCache)
