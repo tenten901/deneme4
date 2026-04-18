@@ -1,4 +1,4 @@
-## WMI, NETWORK & THIRD-PARTY ARTIFACT'LARI
+## WMI, THIRD-PARTY ARTIFACT'leri
 
 ```
 1. WMI Persistent Event Subscriptions (MOF/CIM)
