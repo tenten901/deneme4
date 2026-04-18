@@ -51,6 +51,12 @@
               "type": "file",
               "slug": "event-log",
               "path": "Artifacts/Execution/EVENT LOG.md"
+            },
+            {
+              "name": "WMI",
+              "type": "file",
+              "slug": "wmi",
+              "path": "Artifacts/Execution/WMI.md"
             }
           ]
         }
