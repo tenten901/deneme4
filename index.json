@@ -35,12 +35,6 @@
           "type": "file",
           "slug": "artifacts-execution",
           "path": "Artifacts/Execution.md"
-        },
-        {
-          "name": "Prefetch",
-          "type": "file",
-          "slug": "prefetch",
-          "path": "Artifacts/Prefetch.md"
         }
       ]
     },
