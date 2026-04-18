@@ -17,6 +17,12 @@
           "type": "file",
           "slug": "execution",
           "path": "Saldırı Zinciri/Execution.md"
+        },
+        {
+          "name": "Privilege Escalation",
+          "type": "file",
+          "slug": "privilege-escalation",
+          "path": "Saldırı Zinciri/Privilege Escalation.md"
         }
       ]
     },
