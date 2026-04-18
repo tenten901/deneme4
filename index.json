@@ -41,12 +41,6 @@
               "path": "Artifacts/Execution/REGISTRY.md"
             }
           ]
-        },
-        {
-          "name": "Execution",
-          "type": "file",
-          "slug": "artifacts-execution",
-          "path": "Artifacts/Execution.md"
         }
       ]
     },
