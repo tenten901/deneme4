@@ -45,6 +45,12 @@
               "type": "file",
               "slug": "file-system",
               "path": "Artifacts/Execution/FILE SYSTEM.md"
+            },
+            {
+              "name": "EVENT LOG",
+              "type": "file",
+              "slug": "event-log",
+              "path": "Artifacts/Execution/EVENT LOG.md"
             }
           ]
         }
