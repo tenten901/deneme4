@@ -1,7 +1,6 @@
 
 > 18 Nisan 2026
 
----
 
 ## REGISTRY ARTIFACT'leri
 
