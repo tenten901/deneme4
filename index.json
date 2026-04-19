@@ -77,6 +77,12 @@
               "path": "Artifacts/file folder interaction/FILE SYSTEM.md"
             },
             {
+              "name": "NADİR",
+              "type": "file",
+              "slug": "nadir",
+              "path": "Artifacts/file folder interaction/NADİR.md"
+            },
+            {
               "name": "REGISTRY",
               "type": "file",
               "slug": "file-folder-interaction-registry",
