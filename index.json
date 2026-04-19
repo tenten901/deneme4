@@ -95,10 +95,10 @@
           "type": "folder",
           "children": [
             {
-              "name": "EVENT LOG",
+              "name": "REGISTRY",
               "type": "file",
-              "slug": "persistence-event-log",
-              "path": "Artifacts/Persistence/EVENT LOG.md"
+              "slug": "persistence-registry",
+              "path": "Artifacts/Persistence/REGISTRY.md"
             },
             {
               "name": "FILE SYSTEM",
@@ -107,16 +107,16 @@
               "path": "Artifacts/Persistence/FILE SYSTEM.md"
             },
             {
-              "name": "NADİR",
+              "name": "EVENT LOG",
               "type": "file",
-              "slug": "persistence-nadir",
-              "path": "Artifacts/Persistence/NADİR.md"
+              "slug": "persistence-event-log",
+              "path": "Artifacts/Persistence/EVENT LOG.md"
             },
             {
-              "name": "REGISTRY",
+              "name": "WMI",
               "type": "file",
-              "slug": "persistence-registry",
-              "path": "Artifacts/Persistence/REGISTRY.md"
+              "slug": "persistence-wmi",
+              "path": "Artifacts/Persistence/WMI.md"
             },
             {
               "name": "SCHEDULED TASKS",
@@ -131,10 +131,10 @@
               "path": "Artifacts/Persistence/SERVICES.md"
             },
             {
-              "name": "WMI",
+              "name": "NADİR",
               "type": "file",
-              "slug": "persistence-wmi",
-              "path": "Artifacts/Persistence/WMI.md"
+              "slug": "persistence-nadir",
+              "path": "Artifacts/Persistence/NADİR.md"
             }
           ]
         }
