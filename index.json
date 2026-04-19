@@ -89,6 +89,18 @@
               "path": "Artifacts/file folder interaction/NADİR.md"
             }
           ]
+        },
+        {
+          "name": "Persistence",
+          "type": "folder",
+          "children": [
+            {
+              "name": "REGISTRY",
+              "type": "file",
+              "slug": "persistence-registry",
+              "path": "Artifacts/Persistence/REGISTRY.md"
+            }
+          ]
         }
       ]
     },
