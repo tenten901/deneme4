@@ -65,6 +65,12 @@
           "type": "folder",
           "children": [
             {
+              "name": "FILE SYSTEM",
+              "type": "file",
+              "slug": "file-folder-interaction-file-system",
+              "path": "Artifacts/file folder interaction/FILE SYSTEM.md"
+            },
+            {
               "name": "REGISTRY",
               "type": "file",
               "slug": "file-folder-interaction-registry",
