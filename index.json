@@ -65,10 +65,10 @@
           "type": "folder",
           "children": [
             {
-              "name": "EVENT LOG",
+              "name": "REGISTRY",
               "type": "file",
-              "slug": "file-folder-interaction-event-log",
-              "path": "Artifacts/file folder interaction/EVENT LOG.md"
+              "slug": "file-folder-interaction-registry",
+              "path": "Artifacts/file folder interaction/REGISTRY.md"
             },
             {
               "name": "FILE SYSTEM",
@@ -77,16 +77,16 @@
               "path": "Artifacts/file folder interaction/FILE SYSTEM.md"
             },
             {
+              "name": "EVENT LOG",
+              "type": "file",
+              "slug": "file-folder-interaction-event-log",
+              "path": "Artifacts/file folder interaction/EVENT LOG.md"
+            },
+            {
               "name": "NADİR",
               "type": "file",
               "slug": "nadir",
               "path": "Artifacts/file folder interaction/NADİR.md"
-            },
-            {
-              "name": "REGISTRY",
-              "type": "file",
-              "slug": "file-folder-interaction-registry",
-              "path": "Artifacts/file folder interaction/REGISTRY.md"
             }
           ]
         }
