@@ -59,6 +59,18 @@
               "path": "Artifacts/Execution/WMI.md"
             }
           ]
+        },
+        {
+          "name": "file folder interaction",
+          "type": "folder",
+          "children": [
+            {
+              "name": "REGISTRY",
+              "type": "file",
+              "slug": "file-folder-interaction-registry",
+              "path": "Artifacts/file folder interaction/REGISTRY.md"
+            }
+          ]
         }
       ]
     },
