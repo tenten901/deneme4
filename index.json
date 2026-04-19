@@ -209,6 +209,12 @@
               "path": "Referans/LOLBİN/Hızlı Referans.MD"
             }
           ]
+        },
+        {
+          "name": "Hive Artifacts Lokasyon",
+          "type": "file",
+          "slug": "hive-artifacts-lokasyon",
+          "path": "Referans/Hive Artifacts Lokasyon.md"
         }
       ]
     }
