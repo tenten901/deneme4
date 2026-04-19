@@ -107,6 +107,12 @@
               "path": "Artifacts/Persistence/FILE SYSTEM.md"
             },
             {
+              "name": "NADİR",
+              "type": "file",
+              "slug": "persistence-nadir",
+              "path": "Artifacts/Persistence/NADİR.md"
+            },
+            {
               "name": "REGISTRY",
               "type": "file",
               "slug": "persistence-registry",
