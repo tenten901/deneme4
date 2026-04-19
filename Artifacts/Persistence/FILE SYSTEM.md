@@ -1,4 +1,4 @@
-## 2. FILE SYSTEM ARTIFACT'LARI
+## FILE SYSTEM ARTIFACT'LARI
 
 ```
 1. Startup Klasörü (Kullanıcı)
