@@ -1,6 +1,6 @@
 {
   "rootName": "Windows Forensics",
-  "count": 25,
+  "count": 26,
   "items": [
     {
       "name": "Initial Access",
@@ -106,6 +106,13 @@
       "path": "Artifacts/Persistence/SCHEDULED TASKS.md",
       "folder": "Artifacts/Persistence",
       "content": "SCHEDULED TASKS ARTIFACT'LARI 1. Zamanlanmış Görevler (schtasks / Task Scheduler) Öncelik: Yüksek Konum → C:\\Windows\\System32\\Tasks\\ .xml Gözlem Notu: Tüm görevlerdeki Action etiketinde çalıştırılan komut ve tetikleyici koşula bakılır. 2. Gizli/Silinmiş Görev Kalıntıları (SD Değeri) Öncelik: Yüksek Konum → HKLM\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Schedule\\TaskCache\\Tree\\ → SD Gözlem Notu: SD değeri silinerek GUI'den gizlenen görevlerin TaskCache Tree kaydına bakılır (Win10/11). 3. TaskCache — Actions / Triggers / DynamicInfo Öncelik: Yüksek Konum → HKLM\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Schedule\\TaskCache\\Tasks\\{GUID} → Actions, Triggers, DynamicInfo Gözlem Notu: Actions değerinden çalıştırılan binary, DynamicInfo'dan son çalışma zamanı elde edilir. 4. AT Komutu ile Oluşturulan Görevler (Eski) Öncelik: Düşük Konum → C:\\Windows\\System32\\Tasks\\At Gözlem Notu: Eski at.exe komutuyla oluşturulan görev kalıntılarına bakılır."
+    },
+    {
+      "name": "SERVICES",
+      "slug": "services",
+      "path": "Artifacts/Persistence/SERVICES.md",
+      "folder": "Artifacts/Persistence",
+      "content": "SERVICES ARTIFACT'LARI 1. Windows Servis Kaydı (CurrentControlSet) Öncelik: Yüksek Konum → HKLM\\SYSTEM\\CurrentControlSet\\Services\\ → ImagePath, Start, Type, ObjectName Gözlem Notu: ImagePath'te tırnak içermeyen boşluklu yollar veya olağandışı binary konumlarına bakılır. 2. Servis DLL (svchost.exe servisleri) Öncelik: Yüksek Konum → HKLM\\SYSTEM\\CurrentControlSet\\Services\\ \\Parameters → ServiceDll Gözlem Notu: svchost.exe ile çalışan servislerin ServiceDll değerindeki DLL yoluna bakılır. 3. Servis Failure Recovery (FailureActions / FailureCommand) Öncelik: Orta Konum → HKLM\\SYSTEM\\CurrentControlSet\\Services\\ → FailureActions, FailureCommand Gözlem Notu: Servis fail ettiğinde çalıştırılan FailureCommand'da zararlı komut olup olmadığına bakılır. 4. Driver Servisleri (Kernel / File System Drivers) Öncelik: Orta Konum → HKLM\\SYSTEM\\CurrentControlSet\\Services\\ → Type = 1 veya 2, Start = 0/1/2 Gözlem Notu: Type değeri 1 (kernel) veya 2 (fs) olan servislerde imzasız driver'lara bakılır. 5. Unquoted Service Path Hijacking Öncelik: Orta Konum → HKLM\\SYSTEM\\CurrentControlSet\\Services\\ → ImagePath Gözlem Notu: Boşluk içeren ve tırnak ile sarılmamış ImagePath değerlerinde yol sömürüsüne bakılır. 6. Service Control Manager ACL Abuse Öncelik: Düşük Erişim: Live System Konum → HKLM\\SYSTEM\\CurrentControlSet\\Services\\ → Servis DACL (sc sdshow ile görüntülenir) Gözlem Notu: Düşük yetkili kullanıcıların servis yapılandırmasını değiştirip değiştiremediğine bakılır."
     },
     {
       "name": "WMI",

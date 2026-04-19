@@ -119,6 +119,12 @@
               "path": "Artifacts/Persistence/SCHEDULED TASKS.md"
             },
             {
+              "name": "SERVICES",
+              "type": "file",
+              "slug": "services",
+              "path": "Artifacts/Persistence/SERVICES.md"
+            },
+            {
               "name": "WMI",
               "type": "file",
               "slug": "persistence-wmi",
