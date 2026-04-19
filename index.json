@@ -111,6 +111,12 @@
               "type": "file",
               "slug": "persistence-registry",
               "path": "Artifacts/Persistence/REGISTRY.md"
+            },
+            {
+              "name": "WMI",
+              "type": "file",
+              "slug": "persistence-wmi",
+              "path": "Artifacts/Persistence/WMI.md"
             }
           ]
         }
