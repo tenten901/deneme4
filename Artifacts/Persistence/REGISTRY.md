@@ -1,4 +1,4 @@
-## 1. REGISTRY ARTIFACT'LARI
+## REGISTRY ARTIFACT'LARI
 
 ```
 1. Run / RunOnce Keys (HKLM)
