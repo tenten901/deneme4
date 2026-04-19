@@ -5,7 +5,7 @@
 Öncelik: Yüksek
 Erişim: Live System
 Konum → ROOT\subscription → __EventFilter nesneleri
-Kullanım Win + R > wbemtest  > Bağlan (Connect) > ad boşluğu bunu yaz root\subscription > Örnekleri sırala > __EventFilter yaz. >  Query (CIM_STRING) burada sorguyu incele şüpheli herhangi birşey varmı ? 
+Kullanım:  Win + R > wbemtest  > Bağlan (Connect) > ad boşluğu bunu yaz root\subscription > Örnekleri sırala > __EventFilter yaz. >  Query (CIM_STRING) burada sorguyu incele şüpheli herhangi birşey varmı ? 
 Gözlem Notu: Get-WMIObject ile __EventFilter sınıfındaki aktif sorgu filtrelerine bakılır.
 ```
 
