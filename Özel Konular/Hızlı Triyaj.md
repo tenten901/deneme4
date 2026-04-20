@@ -1,5 +1,5 @@
 
-
+> `dump.mem` kısmına kendi dosya ismini yazmayı unutma.
 
 ### 1 · İlk Erişim ve Çalıştırma
 
