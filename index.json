@@ -159,6 +159,12 @@
               "type": "file",
               "slug": "volatility-3",
               "path": "Özel Konular/Memory Forensic/Volatility 3.md"
+            },
+            {
+              "name": "Volatility 2",
+              "type": "file",
+              "slug": "volatility-2",
+              "path": "Özel Konular/Memory Forensic/Volatility 2.md"
             }
           ]
         }
