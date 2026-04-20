@@ -145,6 +145,12 @@
       "type": "folder",
       "children": [
         {
+          "name": "Hızlı Triyaj",
+          "type": "file",
+          "slug": "hizli-triyaj",
+          "path": "Özel Konular/Hızlı Triyaj.md"
+        },
+        {
           "name": "Memory",
           "type": "file",
           "slug": "memory",
