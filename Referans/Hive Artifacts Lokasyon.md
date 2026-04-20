@@ -9,26 +9,22 @@
 
 ### 1. Registry Hive Dosyaları
 
-| Konum | Dosyalar |
-|---|---|
-| `C:\Windows\System32\config\` | `SAM`, `SYSTEM`, `SECURITY`, `SOFTWARE`, `DEFAULT`, `COMPONENTS`, `BBI`, `*.LOG1`, `*.LOG2` |
-| `C:\Windows\System32\config\RegBack\` | Yukarıdaki hive dosyalarının yedekleri |
-| `C:\Windows\Repair\` | `SAM` |
-| `C:\Users\<kullanıcı>\` | `NTUSER.DAT` |
-| `C:\Users\<kullanıcı>\AppData\Local\Microsoft\Windows\` | `UsrClass.dat` |
-| `C:\System Volume Information\` | `Syscache.hve` |
-| `C:\Windows\appcompat\Programs\` | `Amcache.hve` |
+- `C:\Windows\System32\config\` → SAM, SYSTEM, SECURITY, SOFTWARE, DEFAULT, COMPONENTS, BBI, *.LOG1, *.LOG2
+- `C:\Windows\System32\config\RegBack\` → Yukarıdaki hive dosyalarının yedekleri
+- `C:\Windows\Repair\` → SAM
+- `C:\Users\<kullanıcı>\` → NTUSER.DAT
+- `C:\Users\<kullanıcı>\AppData\Local\Microsoft\Windows\` → UsrClass.dat
+- `C:\System Volume Information\` → Syscache.hve
+- `C:\Windows\appcompat\Programs\` → Amcache.hve
 
 ### 2. Boot ve Sistem Bütünlüğü
 
-| Konum | Dosyalar |
-|---|---|
-| `C:\Boot\` | `BCD` |
-| `C:\Windows\System32\CodeIntegrity\` | Kod bütünlüğü politika dosyaları |
-| `C:\Windows\System32\CatRoot\` | Katalog imza dosyaları |
-| `C:\Windows\System32\WDI\` | Tanılama verileri |
-| `C:\Windows\System32\ELAM\` | Early Launch Anti-Malware verileri |
-| `C:\Windows\Logs\MeasuredBoot\` | Ölçülü önyükleme logları |
+- `C:\Boot\` → BCD
+- `C:\Windows\System32\CodeIntegrity\` → Kod bütünlüğü politika dosyaları
+- `C:\Windows\System32\CatRoot\` → Katalog imza dosyaları
+- `C:\Windows\System32\WDI\` → Tanılama verileri
+- `C:\Windows\System32\ELAM\` → Early Launch Anti-Malware verileri
+- `C:\Windows\Logs\MeasuredBoot\` → Ölçülü önyükleme logları
 
 ---
 
@@ -36,44 +32,34 @@
 
 ### 3. Windows Event Logs
 
-| Konum | Dosyalar |
-|---|---|
-| `C:\Windows\System32\winevt\Logs\` | `*.evtx` |
+- `C:\Windows\System32\winevt\Logs\` → *.evtx
 
 ### 4. Kurulum ve Güncelleme Logları
 
-| Konum | Dosyalar |
-|---|---|
-| `C:\Windows\INF\` | `setupapi.dev.log`, `setupapi.setup.log`, `setupapi.app.log` |
-| `C:\Windows\Logs\CBS\` | `CBS.log` |
-| `C:\Windows\Logs\DISM\` | `dism.log` |
-| `C:\Windows\Panther\` | `Unattend.xml`, `unattend\` |
-| `C:\Windows\SoftwareDistribution\` | `DataStore\DataStore.edb`, `Download\` |
-| `C:\Users\<kullanıcı>\AppData\Local\Temp\` | `MSI*.log` |
+- `C:\Windows\INF\` → setupapi.dev.log, setupapi.setup.log, setupapi.app.log
+- `C:\Windows\Logs\CBS\` → CBS.log
+- `C:\Windows\Logs\DISM\` → dism.log
+- `C:\Windows\Panther\` → Unattend.xml, unattend\
+- `C:\Windows\SoftwareDistribution\` → DataStore\DataStore.edb, Download\
+- `C:\Users\<kullanıcı>\AppData\Local\Temp\` → MSI*.log
 
 ### 5. IIS Web Sunucu Logları
 
-| Konum | Dosyalar |
-|---|---|
-| `C:\inetpub\logs\LogFiles\W3SVC*\` | `*.log` |
-| `C:\inetpub\wwwroot\` | Web root dizini (webshell araması için) |
+- `C:\inetpub\logs\LogFiles\W3SVC*\` → *.log
+- `C:\inetpub\wwwroot\` → Web root dizini (webshell araması için)
 
 ### 6. Hata Raporları ve Crash Dump
 
-| Konum | Dosyalar |
-|---|---|
-| `C:\ProgramData\Microsoft\Windows\WER\` | `ReportArchive\`, `ReportQueue\` |
-| `C:\Users\<kullanıcı>\AppData\Local\CrashDumps\` | Uygulama crash dump dosyaları |
-| `C:\Users\<kullanıcı>\AppData\Local\Microsoft\Windows\WER\` | Kullanıcı düzeyi hata raporları |
-| `C:\Windows\` | `MEMORY.DMP` |
-| `C:\Windows\Minidump\` | `*.dmp` |
-| `C:\Windows\LiveKernelReports\` | Kernel hata raporları |
+- `C:\ProgramData\Microsoft\Windows\WER\` → ReportArchive\, ReportQueue\
+- `C:\Users\<kullanıcı>\AppData\Local\CrashDumps\` → Uygulama crash dump dosyaları
+- `C:\Users\<kullanıcı>\AppData\Local\Microsoft\Windows\WER\` → Kullanıcı düzeyi hata raporları
+- `C:\Windows\` → MEMORY.DMP
+- `C:\Windows\Minidump\` → *.dmp
+- `C:\Windows\LiveKernelReports\` → Kernel hata raporları
 
 ### 7. Firewall Logları
 
-| Konum | Dosyalar |
-|---|---|
-| `C:\Windows\System32\LogFiles\Firewall\` | `pfirewall.log` |
+- `C:\Windows\System32\LogFiles\Firewall\` → pfirewall.log
 
 ---
 
@@ -81,47 +67,36 @@
 
 ### 8. NTFS Yapıları
 
-| Konum | Açıklama |
-|---|---|
-| `C:\$MFT` | Master File Table — tüm dosya kayıtları |
-| `C:\$LogFile` | NTFS işlem günlüğü |
-| `C:\$Bitmap` | Küme (cluster) tahsis haritası |
-| `C:\$Boot` | Önyükleme sektörü bilgileri |
-| `C:\$Secure` | Dosya güvenlik tanımlayıcıları |
-| `C:\$Extend\$UsnJrnl` | USN Change Journal (`$J` ve `$MAX` veri akışları) |
-| Her NTFS dizininde `$I30` | Dizin indeks kaydı — silinmiş dosya adlarının tespiti için |
+- `C:\$MFT` → Master File Table — tüm dosya kayıtları
+- `C:\$LogFile` → NTFS işlem günlüğü
+- `C:\$Bitmap` → Küme (cluster) tahsis haritası
+- `C:\$Boot` → Önyükleme sektörü bilgileri
+- `C:\$Secure` → Dosya güvenlik tanımlayıcıları
+- `C:\$Extend\$UsnJrnl` → USN Change Journal ($J ve $MAX veri akışları)
+- Her NTFS dizininde `$I30` → Dizin indeks kaydı — silinmiş dosya adlarının tespiti için
 
 ### 9. Prefetch Dosyaları
 
-| Konum | Dosyalar |
-|---|---|
-| `C:\Windows\Prefetch\` | `*.pf`, `Ag*.db` |
+- `C:\Windows\Prefetch\` → *.pf, Ag*.db
 
-**Saldırı aracı izleri için özellikle aranacak prefetch dosyaları:**
-`mimikatz.pf`, `procdump.pf`, `ntdsutil.pf`, `vssadmin.pf`, `rundll32.pf`, `bcdedit.pf`, `cmdkey.pf`, `mstsc.pf`, `rdpclip.pf`
+**Saldırı aracı izleri için özellikle aranacak prefetch dosyaları:** mimikatz.pf, procdump.pf, ntdsutil.pf, vssadmin.pf, rundll32.pf, bcdedit.pf, cmdkey.pf, mstsc.pf, rdpclip.pf
 
 ### 10. Geri Dönüşüm Kutusu
 
-| Konum | Dosyalar |
-|---|---|
-| `C:\$Recycle.Bin\<SID>\` | `$I*` (metadata), `$R*` (asıl dosya içeriği) |
+- `C:\$Recycle.Bin\<SID>\` → $I* (metadata), $R* (asıl dosya içeriği)
 
-Diğer sürücülerde de aranmalı: `D:\$Recycle.Bin\`, `E:\$Recycle.Bin\` vb.
+Diğer sürücülerde de aranmalı: D:\$Recycle.Bin\, E:\$Recycle.Bin\ vb.
 
 ### 11. Volume Shadow Copy
 
-| Konum | Açıklama |
-|---|---|
-| `\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy<N>\` | N numaralı gölge kopya; sistemin önceki halini içerir |
-| `C:\System Volume Information\` | VSS metadata |
+- `\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy<N>\` → N numaralı gölge kopya; sistemin önceki halini içerir
+- `C:\System Volume Information\` → VSS metadata
 
 ### 12. Bellek ve Sayfalama Dosyaları
 
-| Konum | Açıklama |
-|---|---|
-| `C:\hiberfil.sys` | Hazırda bekletme bellek dökümü |
-| `C:\pagefile.sys` | Sanal bellek sayfa dosyası |
-| `C:\swapfile.sys` | Modern uygulama takas dosyası |
+- `C:\hiberfil.sys` → Hazırda bekletme bellek dökümü
+- `C:\pagefile.sys` → Sanal bellek sayfa dosyası
+- `C:\swapfile.sys` → Modern uygulama takas dosyası
 
 ---
 
@@ -129,43 +104,33 @@ Diğer sürücülerde de aranmalı: `D:\$Recycle.Bin\`, `E:\$Recycle.Bin\` vb.
 
 ### 13. Shell Artifact'ları (LNK, JumpList, Thumbnail)
 
-| Konum | Dosyalar |
-|---|---|
-| `C:\Users\<kullanıcı>\AppData\Roaming\Microsoft\Windows\Recent\` | `*.lnk` |
-| `…\Recent\AutomaticDestinations\` | Otomatik JumpList dosyaları |
-| `…\Recent\CustomDestinations\` | Özel JumpList dosyaları |
-| `C:\Users\<kullanıcı>\AppData\Local\Microsoft\Windows\Explorer\` | `thumbcache_*.db`, `iconcache_*.db` |
+- `C:\Users\<kullanıcı>\AppData\Roaming\Microsoft\Windows\Recent\` → *.lnk
+- `…\Recent\AutomaticDestinations\` → Otomatik JumpList dosyaları
+- `…\Recent\CustomDestinations\` → Özel JumpList dosyaları
+- `C:\Users\<kullanıcı>\AppData\Local\Microsoft\Windows\Explorer\` → thumbcache_*.db, iconcache_*.db
 
 ### 14. Aktivite Geçmişi ve Bildirimler
 
-| Konum | Dosyalar |
-|---|---|
-| `C:\Users\<kullanıcı>\AppData\Local\ConnectedDevicesPlatform\<alt klasör>\` | `ActivitiesCache.db` |
-| `C:\Users\<kullanıcı>\AppData\Local\Microsoft\Windows\Notifications\` | `wpndatabase.db` |
-| `C:\Users\<kullanıcı>\AppData\Roaming\Microsoft\Office\Recent\` | Son açılan Office dosyaları |
+- `C:\Users\<kullanıcı>\AppData\Local\ConnectedDevicesPlatform\<alt klasör>\` → ActivitiesCache.db
+- `C:\Users\<kullanıcı>\AppData\Local\Microsoft\Windows\Notifications\` → wpndatabase.db
+- `C:\Users\<kullanıcı>\AppData\Roaming\Microsoft\Office\Recent\` → Son açılan Office dosyaları
 
 ### 15. PowerShell ve Komut Satırı Geçmişi
 
-| Konum | Dosyalar |
-|---|---|
-| `C:\Users\<kullanıcı>\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\` | `ConsoleHost_history.txt` |
-| `C:\Windows\System32\WindowsPowerShell\v1.0\` | `profile.ps1` |
-| `C:\Users\<kullanıcı>\Documents\PowerShell\` | `Microsoft.PowerShell_profile.ps1` |
-| `C:\Users\<kullanıcı>\Documents\` | `PowerShell_transcript.*.txt` |
+- `C:\Users\<kullanıcı>\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\` → ConsoleHost_history.txt
+- `C:\Windows\System32\WindowsPowerShell\v1.0\` → profile.ps1
+- `C:\Users\<kullanıcı>\Documents\PowerShell\` → Microsoft.PowerShell_profile.ps1
+- `C:\Users\<kullanıcı>\Documents\` → PowerShell_transcript.*.txt
 
 ### 16. Windows Arama ve İndeks
 
-| Konum | Dosyalar |
-|---|---|
-| `C:\ProgramData\Microsoft\Search\Data\Applications\Windows\` | `Windows.edb` |
-| `C:\Users\<kullanıcı>\AppData\Local\Packages\Microsoft.Windows.Cortana_*\LocalState\DeviceSearchCache\` | `AppCache.db` |
+- `C:\ProgramData\Microsoft\Search\Data\Applications\Windows\` → Windows.edb
+- `C:\Users\<kullanıcı>\AppData\Local\Packages\Microsoft.Windows.Cortana_*\LocalState\DeviceSearchCache\` → AppCache.db
 
 ### 17. OneDrive Logları
 
-| Konum | Dosyalar |
-|---|---|
-| `C:\Users\<kullanıcı>\AppData\Local\Microsoft\OneDrive\logs\` | `SyncDiagnostics.log` |
-| `C:\Users\<kullanıcı>\AppData\Local\Microsoft\OneDrive\settings\` | Yapılandırma dosyaları |
+- `C:\Users\<kullanıcı>\AppData\Local\Microsoft\OneDrive\logs\` → SyncDiagnostics.log
+- `C:\Users\<kullanıcı>\AppData\Local\Microsoft\OneDrive\settings\` → Yapılandırma dosyaları
 
 ---
 
@@ -173,32 +138,24 @@ Diğer sürücülerde de aranmalı: `D:\$Recycle.Bin\`, `E:\$Recycle.Bin\` vb.
 
 ### 18. Google Chrome
 
-| Konum | Dosyalar |
-|---|---|
-| `C:\Users\<kullanıcı>\AppData\Local\Google\Chrome\User Data\Default\` | `History`, `Login Data`, `Cookies`, `Web Data`, `Local State` |
-| `…\Default\Cache\` | Tarayıcı önbellek dosyaları |
-| `…\Default\Extensions\` | Yüklü uzantılar |
+- `C:\Users\<kullanıcı>\AppData\Local\Google\Chrome\User Data\Default\` → History, Login Data, Cookies, Web Data, Local State
+- `…\Default\Cache\` → Tarayıcı önbellek dosyaları
+- `…\Default\Extensions\` → Yüklü uzantılar
 
 ### 19. Microsoft Edge
 
-| Konum | Dosyalar |
-|---|---|
-| `C:\Users\<kullanıcı>\AppData\Local\Microsoft\Edge\User Data\Default\` | `History`, `Login Data`, `Local State` |
-| `…\Default\Extensions\` | Yüklü uzantılar |
+- `C:\Users\<kullanıcı>\AppData\Local\Microsoft\Edge\User Data\Default\` → History, Login Data, Local State
+- `…\Default\Extensions\` → Yüklü uzantılar
 
 ### 20. Mozilla Firefox
 
-| Konum | Dosyalar |
-|---|---|
-| `C:\Users\<kullanıcı>\AppData\Roaming\Mozilla\Firefox\Profiles\<profil>\` | `places.sqlite`, `cookies.sqlite`, `logins.json`, `formhistory.sqlite`, `key4.db` |
+- `C:\Users\<kullanıcı>\AppData\Roaming\Mozilla\Firefox\Profiles\<profil>\` → places.sqlite, cookies.sqlite, logins.json, formhistory.sqlite, key4.db
 
 ### 21. Internet Explorer / Eski Edge
 
-| Konum | Dosyalar |
-|---|---|
-| `C:\Users\<kullanıcı>\AppData\Local\Microsoft\Windows\WebCache\` | `WebCacheV01.dat` |
-| `C:\Users\<kullanıcı>\AppData\Local\Microsoft\Windows\INetCache\` | Geçici internet dosyaları |
-| `C:\Users\<kullanıcı>\AppData\LocalLow\Microsoft\CryptnetUrlCache\` | `Content\`, `MetaData\` |
+- `C:\Users\<kullanıcı>\AppData\Local\Microsoft\Windows\WebCache\` → WebCacheV01.dat
+- `C:\Users\<kullanıcı>\AppData\Local\Microsoft\Windows\INetCache\` → Geçici internet dosyaları
+- `C:\Users\<kullanıcı>\AppData\LocalLow\Microsoft\CryptnetUrlCache\` → Content\, MetaData\
 
 ---
 
@@ -206,42 +163,30 @@ Diğer sürücülerde de aranmalı: `D:\$Recycle.Bin\`, `E:\$Recycle.Bin\` vb.
 
 ### 22. Startup Klasörleri
 
-| Konum | Açıklama |
-|---|---|
-| `C:\Users\<kullanıcı>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\` | Kullanıcı başlangıç öğeleri |
-| `C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\` | Tüm kullanıcılar için başlangıç öğeleri |
+- `C:\Users\<kullanıcı>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\` → Kullanıcı başlangıç öğeleri
+- `C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\` → Tüm kullanıcılar için başlangıç öğeleri
 
 ### 23. Görev Zamanlayıcı (Scheduled Tasks)
 
-| Konum | Dosyalar |
-|---|---|
-| `C:\Windows\System32\Tasks\` | `*.xml`, `At*` |
-| `C:\Windows\System32\Tasks\Microsoft\Windows\` | Alt görev tanımları |
+- `C:\Windows\System32\Tasks\` → *.xml, At*
+- `C:\Windows\System32\Tasks\Microsoft\Windows\` → Alt görev tanımları
 
 ### 24. Group Policy Betikleri
 
-| Konum | Dosyalar |
-|---|---|
-| `C:\Windows\System32\GroupPolicy\Machine\Scripts\` | `Startup\`, `scripts.ini`, `psscripts.ini` |
-| `C:\Windows\System32\GroupPolicy\User\Scripts\` | `Logon\` |
+- `C:\Windows\System32\GroupPolicy\Machine\Scripts\` → Startup\, scripts.ini, psscripts.ini
+- `C:\Windows\System32\GroupPolicy\User\Scripts\` → Logon\
 
 **Domain ortamında SYSVOL:**
 
-| Konum | Dosyalar |
-|---|---|
-| `\\<domain>\SYSVOL\<domain>\Policies\<GUID>\` | `Machine\Preferences\Groups\Groups.xml`, `Machine\Preferences\Services\Services.xml` |
+- `\\<domain>\SYSVOL\<domain>\Policies\<GUID>\` → Machine\Preferences\Groups\Groups.xml, Machine\Preferences\Services\Services.xml
 
 ### 25. WMI Repository
 
-| Konum | Dosyalar |
-|---|---|
-| `C:\Windows\System32\wbem\Repository\` | `OBJECTS.DATA`, `INDEX.BTR`, `MAPPING*.MAP` |
+- `C:\Windows\System32\wbem\Repository\` → OBJECTS.DATA, INDEX.BTR, MAPPING*.MAP
 
 ### 26. BITS (Arka Plan Aktarım Servisi)
 
-| Konum | Dosyalar |
-|---|---|
-| `C:\ProgramData\Microsoft\Network\Downloader\` | `qmgr.db`, `qmgr0.dat`, `qmgr1.dat` |
+- `C:\ProgramData\Microsoft\Network\Downloader\` → qmgr.db, qmgr0.dat, qmgr1.dat
 
 ---
 
@@ -249,22 +194,18 @@ Diğer sürücülerde de aranmalı: `D:\$Recycle.Bin\`, `E:\$Recycle.Bin\` vb.
 
 ### 27. Windows Vault ve DPAPI
 
-| Konum | Dosyalar |
-|---|---|
-| `C:\Users\<kullanıcı>\AppData\Local\Microsoft\Vault\<alt klasör>\` | `Policy.vpol`, `*.vcrd` |
-| `C:\Users\<kullanıcı>\AppData\Roaming\Microsoft\Protect\<SID>\` | Şifrelenmiş DPAPI master key dosyaları |
-| `C:\Users\<kullanıcı>\AppData\Local\Microsoft\Credentials\` | Şifrelenmiş kimlik bilgileri |
-| `C:\Users\<kullanıcı>\AppData\Roaming\Microsoft\Credentials\` | Şifrelenmiş kimlik bilgileri |
+- `C:\Users\<kullanıcı>\AppData\Local\Microsoft\Vault\<alt klasör>\` → Policy.vpol, *.vcrd
+- `C:\Users\<kullanıcı>\AppData\Roaming\Microsoft\Protect\<SID>\` → Şifrelenmiş DPAPI master key dosyaları
+- `C:\Users\<kullanıcı>\AppData\Local\Microsoft\Credentials\` → Şifrelenmiş kimlik bilgileri
+- `C:\Users\<kullanıcı>\AppData\Roaming\Microsoft\Credentials\` → Şifrelenmiş kimlik bilgileri
 
 ### 28. Credential Dump İzleri
 
-| Konum | Açıklama |
-|---|---|
-| `C:\Windows\NTDS\ntds.dit` | Active Directory veritabanı (yalnızca DC) |
-| `C:\Windows\Temp\lsass.dmp` | LSASS bellek dökümü |
-| `C:\Users\<kullanıcı>\AppData\Local\Temp\lsass*.dmp` | Kullanıcı temp dizininde LSASS dump |
-| `C:\ProgramData\Microsoft\Windows\WER\ReportQueue\` | `lsass.exe*.dmp` aranır |
-| `C:\Windows\Temp\`, kullanıcı Temp ve profil kökü | `*.kirbi` (Kerberos bilet dosyaları) |
+- `C:\Windows\NTDS\ntds.dit` → Active Directory veritabanı (yalnızca DC)
+- `C:\Windows\Temp\lsass.dmp` → LSASS bellek dökümü
+- `C:\Users\<kullanıcı>\AppData\Local\Temp\lsass*.dmp` → Kullanıcı temp dizininde LSASS dump
+- `C:\ProgramData\Microsoft\Windows\WER\ReportQueue\` → lsass.exe*.dmp aranır
+- `C:\Windows\Temp\`, kullanıcı Temp ve profil kökü → *.kirbi (Kerberos bilet dosyaları)
 
 ---
 
@@ -272,32 +213,26 @@ Diğer sürücülerde de aranmalı: `D:\$Recycle.Bin\`, `E:\$Recycle.Bin\` vb.
 
 ### 29. SSH ve Ağ Yapılandırması
 
-| Konum | Dosyalar |
-|---|---|
-| `C:\Users\<kullanıcı>\.ssh\` | `known_hosts`, `config`, `authorized_keys` |
-| `C:\ProgramData\ssh\` | `administrators_authorized_keys` |
-| `C:\Windows\System32\drivers\etc\` | `hosts`, `lmhosts.sam` |
-| `C:\ProgramData\Microsoft\Wlansvc\Profiles\Interfaces\<adaptör>\` | `*.xml` (Wi-Fi profilleri) |
-| `C:\ProgramData\Microsoft\Network\Connections\Pbk\` | `rasphone.pbk` |
-| `C:\Users\<kullanıcı>\AppData\Roaming\Microsoft\Network\Connections\Pbk\` | `rasphone.pbk` |
+- `C:\Users\<kullanıcı>\.ssh\` → known_hosts, config, authorized_keys
+- `C:\ProgramData\ssh\` → administrators_authorized_keys
+- `C:\Windows\System32\drivers\etc\` → hosts, lmhosts.sam
+- `C:\ProgramData\Microsoft\Wlansvc\Profiles\Interfaces\<adaptör>\` → *.xml (Wi-Fi profilleri)
+- `C:\ProgramData\Microsoft\Network\Connections\Pbk\` → rasphone.pbk
+- `C:\Users\<kullanıcı>\AppData\Roaming\Microsoft\Network\Connections\Pbk\` → rasphone.pbk
 
 ### 30. RDP (Uzak Masaüstü)
 
-| Konum | Dosyalar |
-|---|---|
-| `C:\Users\<kullanıcı>\AppData\Local\Microsoft\Terminal Server Client\Cache\` | `*.bmc`, `bcache*.bmc` |
-| `C:\Users\<kullanıcı>\Documents\` | `Default.rdp` |
+- `C:\Users\<kullanıcı>\AppData\Local\Microsoft\Terminal Server Client\Cache\` → *.bmc, bcache*.bmc
+- `C:\Users\<kullanıcı>\Documents\` → Default.rdp
 
 ### 31. Üçüncü Parti Uzak Erişim Araçları
 
-| Konum | Dosyalar |
-|---|---|
-| `C:\Users\<kullanıcı>\AppData\Roaming\TeamViewer\` | `Connections.txt` |
-| `C:\Program Files\TeamViewer\` | `Connections_incoming.txt` |
-| `C:\Users\<kullanıcı>\AppData\Roaming\AnyDesk\` | `ad.trace`, `system.conf` |
-| `C:\ProgramData\AnyDesk\` | `ad_svc.trace`, `system.conf` |
-| `C:\Users\<kullanıcı>\AppData\Roaming\RustDesk\config\` | `*.toml` |
-| `C:\Users\<kullanıcı>\.ngrok2\` | `ngrok.yml` |
+- `C:\Users\<kullanıcı>\AppData\Roaming\TeamViewer\` → Connections.txt
+- `C:\Program Files\TeamViewer\` → Connections_incoming.txt
+- `C:\Users\<kullanıcı>\AppData\Roaming\AnyDesk\` → ad.trace, system.conf
+- `C:\ProgramData\AnyDesk\` → ad_svc.trace, system.conf
+- `C:\Users\<kullanıcı>\AppData\Roaming\RustDesk\config\` → *.toml
+- `C:\Users\<kullanıcı>\.ngrok2\` → ngrok.yml
 
 ---
 
@@ -305,12 +240,10 @@ Diğer sürücülerde de aranmalı: `D:\$Recycle.Bin\`, `E:\$Recycle.Bin\` vb.
 
 ### 32. FTP / SCP / Arşiv İstemcileri
 
-| Konum | Dosyalar |
-|---|---|
-| `C:\Users\<kullanıcı>\AppData\Roaming\FileZilla\` | `recentservers.xml`, `queue.sqlite3` |
-| `C:\Users\<kullanıcı>\AppData\Roaming\` | `WinSCP.ini` |
-| `C:\Users\<kullanıcı>\AppData\Roaming\WinRAR\` | Yapılandırma ve geçmiş |
-| `C:\Users\<kullanıcı>\AppData\Roaming\7-Zip\` | Yapılandırma ve geçmiş |
+- `C:\Users\<kullanıcı>\AppData\Roaming\FileZilla\` → recentservers.xml, queue.sqlite3
+- `C:\Users\<kullanıcı>\AppData\Roaming\` → WinSCP.ini
+- `C:\Users\<kullanıcı>\AppData\Roaming\WinRAR\` → Yapılandırma ve geçmiş
+- `C:\Users\<kullanıcı>\AppData\Roaming\7-Zip\` → Yapılandırma ve geçmiş
 
 ---
 
@@ -318,9 +251,7 @@ Diğer sürücülerde de aranmalı: `D:\$Recycle.Bin\`, `E:\$Recycle.Bin\` vb.
 
 ### 33. System Resource Usage Monitor
 
-| Konum | Dosyalar |
-|---|---|
-| `C:\Windows\System32\sru\` | `SRUDB.dat` |
+- `C:\Windows\System32\sru\` → SRUDB.dat
 
 ---
 
@@ -328,27 +259,21 @@ Diğer sürücülerde de aranmalı: `D:\$Recycle.Bin\`, `E:\$Recycle.Bin\` vb.
 
 ### 34. Yazıcı Spool
 
-| Konum | Dosyalar |
-|---|---|
-| `C:\Windows\System32\spool\PRINTERS\` | Yazdırma kuyruğu dosyaları |
-| `C:\Windows\System32\spool\drivers\` | Yazıcı sürücüleri |
+- `C:\Windows\System32\spool\PRINTERS\` → Yazdırma kuyruğu dosyaları
+- `C:\Windows\System32\spool\drivers\` → Yazıcı sürücüleri
 
 ### 35. WSL (Windows Subsystem for Linux)
 
-| Konum | Dosyalar |
-|---|---|
-| `\\wsl$\<dağıtım>\home\<kullanıcı>\` | `.bashrc`, `.bash_history` vb. |
-| `C:\Users\<kullanıcı>\AppData\Local\Packages\` | `*CanonicalGroup*` ile başlayan klasörler (Ubuntu, Debian vb.) |
+- `\\wsl$\<dağıtım>\home\<kullanıcı>\` → .bashrc, .bash_history vb.
+- `C:\Users\<kullanıcı>\AppData\Local\Packages\` → *CanonicalGroup* ile başlayan klasörler (Ubuntu, Debian vb.)
 
 ### 36. Uygulama Bazlı Artifact'lar
 
-| Konum | Açıklama |
-|---|---|
-| `C:\Users\<kullanıcı>\AppData\Local\Steam\htmlcache\` | Steam tarayıcı önbelleği |
-| `C:\Users\<kullanıcı>\AppData\Local\Packages\Microsoft.WindowsNotepad_*\LocalState\TabState\` | Notepad sekme verileri |
-| `C:\Users\<kullanıcı>\AppData\Local\Packages\Microsoft.MicrosoftStickyNotes_*\LocalState\` | `plum.sqlite` |
-| `C:\Users\<kullanıcı>\AppData\Local\Microsoft\Media Player\` | Medya oynatıcı geçmişi |
-| `C:\Users\<kullanıcı>\AppData\Local\Microsoft\Windows\INetCache\Content.Outlook\` | Outlook ek önbelleği |
-| `C:\ProgramData\Microsoft\Windows\Containers\` | Konteyner yapılandırması |
-| `C:\Program Files\VMware\VMware Tools\` | VMware sanallaştırma araçları |
-| `C:\Program Files\Oracle\VirtualBox Guest Additions\` | VirtualBox misafir eklentileri |
+- `C:\Users\<kullanıcı>\AppData\Local\Steam\htmlcache\` → Steam tarayıcı önbelleği
+- `C:\Users\<kullanıcı>\AppData\Local\Packages\Microsoft.WindowsNotepad_*\LocalState\TabState\` → Notepad sekme verileri
+- `C:\Users\<kullanıcı>\AppData\Local\Packages\Microsoft.MicrosoftStickyNotes_*\LocalState\` → plum.sqlite
+- `C:\Users\<kullanıcı>\AppData\Local\Microsoft\Media Player\` → Medya oynatıcı geçmişi
+- `C:\Users\<kullanıcı>\AppData\Local\Microsoft\Windows\INetCache\Content.Outlook\` → Outlook ek önbelleği
+- `C:\ProgramData\Microsoft\Windows\Containers\` → Konteyner yapılandırması
+- `C:\Program Files\VMware\VMware Tools\` → VMware sanallaştırma araçları
+- `C:\Program Files\Oracle\VirtualBox Guest Additions\` → VirtualBox misafir eklentileri
