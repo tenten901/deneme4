@@ -161,18 +161,6 @@
               "path": "Özel Konular/Memory Forensic/Volatility 3.md"
             }
           ]
-        },
-        {
-          "name": "Hızlı Triyaj",
-          "type": "file",
-          "slug": "ozel-konular-hizli-triyaj",
-          "path": "Özel Konular/Hızlı Triyaj.md"
-        },
-        {
-          "name": "Memory",
-          "type": "file",
-          "slug": "memory",
-          "path": "Özel Konular/Memory.md"
         }
       ]
     },
