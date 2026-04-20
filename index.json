@@ -149,6 +149,12 @@
           "type": "folder",
           "children": [
             {
+              "name": "Hızlı Triyaj",
+              "type": "file",
+              "slug": "hizli-triyaj",
+              "path": "Özel Konular/Memory Forensic/Hızlı Triyaj.md"
+            },
+            {
               "name": "Volatility 3",
               "type": "file",
               "slug": "volatility-3",
@@ -159,7 +165,7 @@
         {
           "name": "Hızlı Triyaj",
           "type": "file",
-          "slug": "hizli-triyaj",
+          "slug": "ozel-konular-hizli-triyaj",
           "path": "Özel Konular/Hızlı Triyaj.md"
         },
         {
