@@ -30,8 +30,8 @@ from pathlib import Path
 
 ROOT_NAME = "Windows Forensics"
 DEFAULT_SCAN_DIRS = [
-    "Saldırı Zinciri",
-    "Artifacts",
+    "Saldırgan Perspektifi",
+    "Analist Perspektifi",
     "Özel Konular",
     "Referans",
 ]
