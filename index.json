@@ -101,6 +101,12 @@
           "type": "file",
           "slug": "hive-artifacts-lokasyon",
           "path": "Referans/Hive Artifacts Lokasyon.md"
+        },
+        {
+          "name": "Wireshark",
+          "type": "file",
+          "slug": "wireshark",
+          "path": "Referans/Wireshark.md"
         }
       ]
     }
