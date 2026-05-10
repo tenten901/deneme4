@@ -1,3 +1,4 @@
+zeek -r trafik.pcap
 
 ## `conn` — Kim, kiminle, hangi porttan, ne kadar süre konuştu?
 
