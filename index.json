@@ -91,6 +91,12 @@
           ]
         },
         {
+          "name": "denem",
+          "type": "file",
+          "slug": "denem",
+          "path": "Referans/denem.md"
+        },
+        {
           "name": "Hive Artifacts Lokasyon",
           "type": "file",
           "slug": "hive-artifacts-lokasyon",
