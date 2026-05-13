@@ -97,6 +97,12 @@
           "path": "Referans/Hive Artifacts Lokasyon.md"
         },
         {
+          "name": "Volatility 3",
+          "type": "file",
+          "slug": "referans-volatility-3",
+          "path": "Referans/Volatility 3.md"
+        },
+        {
           "name": "Wireshark",
           "type": "file",
           "slug": "wireshark",
